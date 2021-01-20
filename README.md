@@ -1,0 +1,2 @@
+# Bi-weekly-challenge-2
+Create a user input which accepts numbers The value should be saved in an array and the array list items printed underneath the input Delete a clicked item from the list both on the array and interface, Have two buttons Which says “Show Odd” and “Show Even” Upon clicking the Show Odd button, display the total count of odd numbers within the array Upon clicking the Show Even button, display the total count of even numbers within the array
