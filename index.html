@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Bi Weekly Challenge Two</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="text-center p-5">
+            <h1>Bi Weekly Challenge Two</h1>
+            <p class="lead ">
+                Create a user input which accepts numbers The value should be saved in an array and the array list items printed underneath the input Delete a clicked item from the list both on the array and interface, Have two buttons Which says “Show Odd” and “Show
+                Even” Upon clicking the Show Odd button, display the total count of odd numbers within the array Upon clicking the Show Even button, display the total count of even numbers within the array
+
+            </p>
+        </header>
+        <main>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="form-label">Input </label>
+                        <input type="text" id="input" class="form-control" placeholder="">
+                        <button class="btn btn-primary my-4" onclick="addNumber()" type="submit" id="add-number">Add Number</button>
+                    </div>
+                    <div class="d-flex justify-content-start pb-5">
+                        <div>
+                            <button class="btn btn-primary mx-1" onclick="unhideEven()">Show Even</button>
+                            <div id="show-even" class="hide mt-3 mx-1 text-center font-weight-bolder p-2 border shadow">
+
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn-danger mx-1" onclick="unhideOdd()">Show odd</button>
+                            <div id="show-odd" class="hide mt-3 mx-1 p-2 text-center font-weight-bolder border shadow">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="display-num d-flex flex-row justify-content-center flex-wrap">
+
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
